@@ -49,9 +49,9 @@ exports.postContact = (req, res) => {
     }
   });
   const mailOptions = {
-    to: 'your@email.com',
+    to: 'per.hedbrant@email.com',
     from: `${fromName} <${fromEmail}>`,
-    subject: 'Contact Form | Hackathon Starter',
+    subject: 'Contact Form | Pers World',
     text: req.body.message
   };
 
